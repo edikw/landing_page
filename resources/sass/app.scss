@@ -1,0 +1,127 @@
+//
+
+@font-face {
+    font-family: montserat_black;
+    src: url("../../public/assets/font/montserrat/Montserrat-Black.otf");
+}
+
+@font-face {
+    font-family: montserat_light;
+    src: url("../../public/assets/font/montserrat/Montserrat-Light.otf");
+}
+
+@font-face {
+    font-family: montserat_regular;
+    src: url("../../public/assets/font/montserrat/Montserrat-Regular.otf");
+}
+
+@font-face {
+    font-family: montserat_hairline;
+    src: url("../../public/assets/font/montserrat/Montserrat-Hairline.otf");
+}
+
+@font-face {
+    font-family: roboto_regular;
+    src: url("../../public/assets/font/roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: roboto_light;
+    src: url("../../public/assets/font/roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: roboto_thin;
+    src: url("../../public/assets/font/roboto/Roboto-Thin.ttf");
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.title__img {
+    position: relative;
+    top: 80px;
+    margin: 0px;
+}
+
+.title__img-center {
+    position: relative;
+    top: 25px;
+    margin: 0px;
+}
+
+.text__navbar, .text__header p, .text__header small, .desc_title-bold, .price__discount, .text__rp, .title__support, .content__footer p, .desc__letter p, .desc__payment p, .desc__footer-bottom p {
+    font-family: montserat_light;
+}
+
+.title__bold, .title__service, .title__paket, .title__footer {
+    font-family: montserat_regular;
+}
+
+
+.list__item, .title__img, .title__img-center {
+    font-family: montserat_light;
+    letter-spacing: 0.04em;
+    margin-bottom: 10px;
+    opacity: 70%;
+}
+
+.content__price h6, .desc__paket {
+    font-family: roboto_light;
+}
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    #navbarSupportedContent {
+        margin-left: 10px !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .btn__input {
+        left: 251px !important;
+        width: 33% !important;
+    }
+
+    .desc__letter {
+        top: -25px !important;
+    }
+
+    .text__header {
+        padding: 0px;
+    }
+
+    .text__header p {
+        font-size: 10px;
+        align-self: center;
+    }
+
+    #navbarSupportedContent {
+        margin-left: 10px !important;
+    }
+
+    .list__item {
+        font-size: 12px;
+    }
+
+    .banner, .banner_support, .banner_2 {
+        width: 100%;
+    }
+
+    .title__img, .title__img-center {
+        position: relative;
+        top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .text__help h4 {
+        font-size: 15px !important;
+        text-align: center;
+    }
+}
