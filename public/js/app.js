@@ -2379,7 +2379,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             case 0:
               url = "http://localhost:8000/api/posts";
               _context.next = 3;
-              return _this.axios.get(uri).then(function (response) {
+              return _this.axios.get(url).then(function (response) {
                 _this.setPrice(response.data.data);
               });
 
