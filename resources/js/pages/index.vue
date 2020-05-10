@@ -422,7 +422,7 @@
         },
         async created() {
             let url = `http://localhost:8000/api/posts`;
-            await this.axios.get(uri).then(response => { 
+            await this.axios.get(url).then(response => { 
                 this.setPrice(response.data.data)
             });
         },
